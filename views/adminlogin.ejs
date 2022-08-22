@@ -1,0 +1,20 @@
+<%- include('partials/header1')%>
+
+<div class="login-form">
+  <form action="/adminlogin" method="post">
+    <h1>Login</h1>
+    <div class="content">
+      <div class="input-field">
+        <input name="email" type="email" placeholder="Email" autocomplete="email">
+      </div>
+      <div class="input-field">
+        <input name="password" type="password" placeholder="Password" autocomplete="new-password">
+      </div>
+      <a href="#" class="link">Forgot Your Password?</a>
+    </div>
+    <button class="signinB" type="submit">Sign in</button>
+  </form>
+</div>
+
+
+<%- include('partials/footer1')%>
